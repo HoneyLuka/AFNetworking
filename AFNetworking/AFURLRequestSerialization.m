@@ -1287,6 +1287,7 @@ typedef enum {
 - (instancetype)copyWithZone:(NSZone *)zone {
     AFJSONRequestSerializer *serializer = [super copyWithZone:zone];
     serializer.writingOptions = self.writingOptions;
+    serializer.timeoutInterval = self.timeoutInterval;
 
     return serializer;
 }

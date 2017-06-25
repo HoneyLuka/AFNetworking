@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'AFNetworking'
-  s.version  = '3.1.0-fix-response-serialization-copying'
+  s.version  = '3.1.0-fix-request-serialization-timeout-copying'
   s.license  = 'MIT'
   s.summary  = 'A delightful iOS and OS X networking framework.'
   s.homepage = 'https://github.com/AFNetworking/AFNetworking'
